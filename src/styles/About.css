@@ -1,0 +1,95 @@
+.about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-x: visible !important;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--main-color);
+}
+
+.about-content {
+  width: 70%;
+  justify-content: center;
+  margin: 15px;
+  padding: 60px 40px 40px 40px;
+  word-wrap: break-word;
+  align-items: center;
+  font-family: var(--font-3);
+}
+
+.about .section-header {
+  color: var(--background-color);
+}
+
+.about .about-content p {
+  color: var(--background-color);
+  line-height: 200%;
+  font-weight: bold;
+}
+
+.about-description {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+/* beginner info collapsible button */
+.beginner-button {
+  font-family: var(--font-3);
+  background-color: var(--background-color);
+  color: var(--main-color);
+  font-size: larger;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  border-radius: 10px;
+  margin: 0px 0 2px 0;
+}
+
+.beginner-button:hover {
+  background-color: #dec6a6;
+}
+
+.beginner-button:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: medium;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.beginner-content {
+  padding: 0 18px;
+  border-radius: 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #7e5e39;
+  margin: 0 0 30px 0;
+  font-size: 1.08rem;
+}
+/* beginner info collapsible button */
+
+@media screen and (max-width: 800px) {
+  .about {
+    height: auto;
+  }
+  .about-content {
+    font-size: small;
+  }
+  .about .beginner-button {
+    font-size: medium;
+  }
+  .beginner-button:after {
+    font-size: small;
+    float: right;
+  }
+}

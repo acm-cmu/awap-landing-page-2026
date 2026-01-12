@@ -1,0 +1,148 @@
+.schedule-content{
+  background: #ffdc41;
+}
+.schedule-page {
+    color: white;
+    margin-bottom: -10px;
+  }
+  .schedule-page * {
+    overflow-x: visible !important;
+    position: relative;
+    z-index: 3;
+  }
+  .schedule-page .schedule-content {
+    height: 100%;
+    color: white;
+    background: #ffdc41;
+    padding-bottom: 20px;
+  }
+  .schedule-page .section-paragraph {
+    height: 100%;
+    color: var(--panel-color);
+  }
+  .schedule-page .legend-label {
+    color: var(--panel-color);
+  }
+  .schedule-page .schedule-header {
+    height: 5vh;
+  }
+  .schedule-page .schedule-title {
+    font-family: 'Rubik', sans-serif; 
+    /* font-family: "Roboto Mono", monospace; */
+    font-weight: 600;
+    font-size: 5em;
+    color: whitesmoke;
+    padding-bottom: 15px;
+  }
+  .year-button {
+    padding: 15px 18px;
+    border-radius: 10px;
+    /* font-family: var(--font-3); */
+    font-size: 100%;
+    font-weight: 600;
+    background: var(--secondary-color);
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    margin: 15px;
+    border: none;
+  }
+  
+  .legend {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  .legend-event {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 4px;
+  }
+  .legend-box {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 8px;
+  }
+  .legend-label {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+  
+  .main-event2 {
+    background-color: var(--main-color);
+  }
+  .workshop, .foods {
+    background-color:var(--panel-color);
+  }
+  
+  .schedule-day-button {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.75rem;
+    font-weight: 900;
+    background: #D19926;
+    cursor: pointer;
+    color: #EBDEB0;
+    border: 2px solid #163D11;
+    text-align: center;
+    margin: 20px;
+  }
+  #friday {
+    border: 3px solid white;
+  }
+  
+  .schedule {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+  }
+  .schedule-event {
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 700;
+    min-height: 60px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+  }
+  .schedule-event .col p {
+    margin: 0px 8px;
+  }
+  .schedule-event .details {
+    color: blanchedalmond;
+  }
+  .schedule-event .col {
+    flex-basis: 40%;
+  }
+  .schedule-event .col:last-child {
+    flex-basis: 60%;
+    border-left: 3px solid white;
+  }
+  
+  @media only screen and (max-width: 460px) {
+    .schedule-page .schedule-title {
+      font-size: 4.5em;
+    }
+    .legend {
+      margin: auto !important;
+    }
+    .legend-event p {
+      font-size: 1em;
+    }
+    .schedule-event {
+      width: 70vw;
+      display: flex;
+      align-items: center;
+    }
+  }
