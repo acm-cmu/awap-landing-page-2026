@@ -44,7 +44,20 @@ const About = () => {
         <FAQButton
           key={7}
           question="Q: Who runs this amazing event?!"
-          answer="AWAP is run by the ACM@CMU chapter, a student organization at Carnegie Mellon University."
+          answer={
+            <>
+              AWAP is run by the{" "}
+              <a
+                href="https://www.acmatcmu.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "var(--main-color)", fontWeight: 600 }}
+              >
+                ACM@CMU chapter
+              </a>
+              , a student organization at Carnegie Mellon University.
+            </>
+          }
         />
         <FAQButton
           key={6}
