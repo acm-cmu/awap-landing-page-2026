@@ -10,7 +10,7 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Check-in</p>
-          <p class="details">Tepper Simmons Auditorium</p>
+          <p class="details">Cohon University Center Rangos Ballroom</p>
         </div>
       </div>
 
@@ -20,7 +20,7 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Opening Ceremony</p>
-          <p class="details">Tepper Simmons Auditorium</p>
+          <p class="details">Cohon University Center Rangos Ballroom</p>
         </div>
       </div>
 
@@ -30,7 +30,7 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Lunch</p>
-          <p class="details">Tepper Simmons Auditorium</p>
+          <p class="details">Cohon University Center Rangos Ballroom</p>
         </div>
       </div>
 
@@ -40,7 +40,7 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Dinner</p>
-          <p class="details">Tepper Simmons Auditorium</p>
+          <p class="details">Cohon University Center Rangos Ballroom</p>
         </div>
       </div>
 
@@ -50,7 +50,7 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Midnight Snack</p>
-          <p class="details">Tepper Simmons Auditorium</p>
+          <p class="details">Cohon University Center Rangos Ballroom</p>
         </div>
       </div>
     </div>
@@ -66,7 +66,7 @@ const saturdaySchedule = () => {
         </div>
         <div class="col">
           <p>Lunch</p>
-          <p class="details">Tepper Simmons Auditorium</p>
+          <p class="details">Cohon University Center Rangos Ballroom</p>
         </div>
       </div>
 
@@ -76,7 +76,7 @@ const saturdaySchedule = () => {
         </div>
         <div class="col">
           <p>End Coding</p>
-          <p class="details">Tepper Simmons Auditorium</p>
+          <p class="details">Cohon University Center Rangos Ballroom</p>
         </div>
       </div>
 
@@ -86,7 +86,7 @@ const saturdaySchedule = () => {
         </div>
         <div class="col">
           <p>Dinner</p>
-          <p class="details">Tepper Simmons Auditorium</p>
+          <p class="details">Cohon University Center Rangos Ballroom</p>
         </div>
       </div>
 
@@ -96,7 +96,7 @@ const saturdaySchedule = () => {
         </div>
         <div class="col">
           <p>Closing Ceremony</p>
-          <p class="details">Tepper Simmons Auditorium</p>
+          <p class="details">Cohon University Center Rangos Ballroom</p>
         </div>
       </div>
     </div>
@@ -124,7 +124,7 @@ const EventDetails = () => {
         <div className="schedule-header"></div>
         <div className="section-header">Schedule</div>
         <div className="section-paragraph">
-          Have questions? Head over to Tepper Simmons Auditorium
+          Have questions? Head over to Cohon University Center Rangos Ballroom
         </div>
 
         <div class="legend">
