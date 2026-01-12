@@ -2,7 +2,7 @@ import "../styles/Navbar.css";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { slide as Menu } from "react-burger-menu";
-// import acm_logo from "../ACM-Logo-Navbar.png";
+import acm_logo from "../ACM-Logo-Navbar.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-content">
-          {/* <a
+          <a
           href="https://www.acmatcmu.com/#/events"
           target="_blank"
           rel="noopener noreferrer"
@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="navbar-logo">
             <img src={acm_logo} width="80px" alt="AWAP logo" />
           </div>
-        </a> */}
+        </a>
         <div className="links-container">
           <Link to="home" smooth={true} offset={-0.08 * window.innerHeight}>
             <div className="link">Home</div>
