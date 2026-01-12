@@ -42,10 +42,23 @@ const About = () => {
           answer="Yes, we'll have up to $2000 in cash prizes. We'll also have raffles, free food, swag, and t-shirts!"
         />
         <FAQButton
-          key={7}
-          question="Q: Who runs this amazing event?!"
-          answer="AWAP is run by the ACM@CMU chapter, a student organization at Carnegie Mellon University."
-        />
+            key={7}
+            question="Q: Who runs this amazing event?!"
+            answer={
+              <>
+                AWAP is run by the{" "}
+                <a
+                  href="https://www.acmatcmu.com/#/events"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "var(--main-color)", textDecoration: "underline" }}
+                >
+                  ACM@CMU
+                </a>{" "}
+                chapter, a student organization at Carnegie Mellon University.
+              </>
+            }
+          />
         <FAQButton
           key={6}
           question="Q: What if I have more questions?"
