@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a2178f67.css",
-    "main.js": "/static/js/main.1f1fedfd.js",
+    "main.js": "/static/js/main.dcd5ba6d.js",
     "static/media/awap25-image.jpg": "/static/media/awap25-image.722940c012460b56f3e2.jpg",
     "static/media/cooking-background.PNG": "/static/media/cooking-background.08b27ee3c1dc8e2b43f3.PNG",
     "static/media/awap22-image.png": "/static/media/awap22-image.1a9db4d94b88032a8994.png",
@@ -11,13 +11,12 @@
     "static/media/awap23-image.png": "/static/media/awap23-image.f473935432285955379a.png",
     "static/media/awap21-image.png": "/static/media/awap21-image.dbf01e65d3be7c25502e.png",
     "static/media/awap19-image.png": "/static/media/awap19-image.66c33d4b97d8624b5c7b.png",
-    "static/media/ACM-Logo-Navbar.png": "/static/media/ACM-Logo-Navbar.5106ab9506c82392a146.png",
     "index.html": "/index.html",
     "main.a2178f67.css.map": "/static/css/main.a2178f67.css.map",
-    "main.1f1fedfd.js.map": "/static/js/main.1f1fedfd.js.map"
+    "main.dcd5ba6d.js.map": "/static/js/main.dcd5ba6d.js.map"
   },
   "entrypoints": [
     "static/css/main.a2178f67.css",
-    "static/js/main.1f1fedfd.js"
+    "static/js/main.dcd5ba6d.js"
   ]
 }
