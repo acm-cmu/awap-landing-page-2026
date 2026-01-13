@@ -124,7 +124,7 @@ const EventDetails = () => {
         <div className="schedule-header"></div>
         <div className="section-header">Schedule</div>
         <div className="section-paragraph">
-          Have questions? Head over to Cohon University Center Rangos Ballroom
+          Have questions? Email us at acm-exec@cs.cmu.edu
         </div>
 
         <div class="legend">

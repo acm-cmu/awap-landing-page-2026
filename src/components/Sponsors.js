@@ -122,7 +122,7 @@ export default function Sponsors() {
 
     <div className="sponsor-blurb">
       Our work here at ACM@CMU would not be possible without the help of our amazing
-      sponsors. We are immeasurably thankful for their support.
+      sponsors! We are immeasurably thankful for their support.
     </div>
 
       <div className="sponsors-content">
