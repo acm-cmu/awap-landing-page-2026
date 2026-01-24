@@ -9,7 +9,7 @@ const fridaySchedule = () => {
           <p>11:00 AM - 12:00 PM</p>
         </div>
         <div class="col">
-          <p>Check-in</p>
+          <p>Check-in & Lunch</p>
           <p class="details">Cohon University Center Rangos Ballroom</p>
         </div>
       </div>
@@ -20,16 +20,6 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Opening Ceremony</p>
-          <p class="details">Cohon University Center Rangos Ballroom</p>
-        </div>
-      </div>
-
-      <div class="schedule-event foods">
-        <div class="col">
-          <p>12:40 PM - 1:00 PM</p>
-        </div>
-        <div class="col">
-          <p>Lunch</p>
           <p class="details">Cohon University Center Rangos Ballroom</p>
         </div>
       </div>
