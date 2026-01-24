@@ -39,7 +39,7 @@ const About = () => {
         <FAQButton
           key={5}
           question="Q: Will there be prizes or swag?"
-          answer="Yes, we'll have up to $2000 in cash prizes. We'll also have raffles, free food, swag, and t-shirts!"
+          answer="Yes, we'll have prizes for both the beginner and advanced track. We'll also have free food, swag, and t-shirts for all participants!"
         />
         <FAQButton
           key={7}
