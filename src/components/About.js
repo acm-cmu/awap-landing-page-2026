@@ -21,7 +21,19 @@ const About = () => {
         <FAQButton
           key={3}
           question="Q: What if I don't have a team yet?"
-          answer="No worries! We will have a team matching channel on Discord :) Join at https://discord.gg/G7k63AYd"
+          answer={
+    <>
+      No worries! We will have a team matching channel on Discord. Join at{" "}
+      <a
+        href="https://discord.gg/G7k63AYd"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "var(--main-color)", fontWeight: 600 }}
+      >
+        https://discord.gg/G7k63AYd
+      </a>
+    </>
+  }
         />
         <FAQButton
           key={1}
@@ -62,7 +74,20 @@ const About = () => {
         <FAQButton
           key={6}
           question="Q: What if I have more questions?"
-          answer="Email us at acm-exec@cs.cmu.edu, or join our Discord server at https://discord.gg/G7k63AYd!"
+          answer={
+    <>
+      Email us at acm-exec@cs.cmu.edu, or join our Discord server at{" "}
+      <a
+        href="https://discord.gg/G7k63AYd"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "var(--main-color)", fontWeight: 600 }}
+      >
+        https://discord.gg/G7k63AYd
+      </a>
+      !
+    </>
+  }
         />
       </div>
     </div>
