@@ -21,7 +21,7 @@ const About = () => {
         <FAQButton
           key={3}
           question="Q: What if I don't have a team yet?"
-          answer="No worries! We will have a team matching channel on Discord :) Join at https://discord.gg/qF55Ssry8b"
+          answer="No worries! We will have a team matching channel on Discord :) Join at https://discord.gg/G7k63AYd"
         />
         <FAQButton
           key={1}
@@ -62,7 +62,7 @@ const About = () => {
         <FAQButton
           key={6}
           question="Q: What if I have more questions?"
-          answer="Email us at acm-exec@cs.cmu.edu, or join our Discord server!"
+          answer="Email us at acm-exec@cs.cmu.edu, or join our Discord server at https://discord.gg/G7k63AYd!"
         />
       </div>
     </div>
